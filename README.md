@@ -2,6 +2,17 @@
 
 Xed is a small and lightweight text editor., <b>now compiled for Linux Void x86_64</b>
 
+<b>HOW TO INSTALL</b></br></br>
+0-Download the xbps<br>
+1-xbps-rindex -a xed-edit-3.2.4_1.x86_64.xbps<br>
+2-sudo xbps-install -R $PWD xed-edit-3.2.4_1<br>
+
+If you have some error messages runnig the editor try this<br>
+
+<i>sudo glib-compile-schemas /usr/share/glib-2.0/schemas<br>
+sudo /usr/bin/glib-compile-schemas /usr/local/share/glib-2.0/schemas/</i><br><br>
+
+
 xed supports most standard editing features, plus several not found in your
 average text editor (plugins being the most notable of these).
 
